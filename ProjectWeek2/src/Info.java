@@ -71,10 +71,10 @@ public class Info {
 				
 				// Asks the user to input information 
 				System.out.println("Enter your first name: ");
-				String frstname = scanner.nextLine();
+				String firstName = scanner.nextLine();
 				
 				System.out.println("What is your last name: ");
-				String lstname = scanner.nextLine();
+				String lastName = scanner.nextLine();
 				
 				System.out.println("Enter your street address: ");
 				String address = scanner.nextLine();
@@ -88,8 +88,9 @@ public class Info {
 				// Prints out the information above
 				System.out.println("----- Here is the information you entered -----");
 				System.out.println("");
-				System.out.println("First name: " + frstname);
-				System.out.println("Last name: " + lstname);
+				
+				System.out.println("First name: " + firstName);
+				System.out.println("Last name: " + lastName);
 				System.out.println("Street address: " + address);
 				System.out.println("City: " + city);
 				System.out.println("Zip Code: " + code);
@@ -98,4 +99,6 @@ public class Info {
 				scanner.close();
 	}
 
+	
+	
 }
